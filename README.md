@@ -13,4 +13,6 @@ npm run update
 
 # adding prettier
 # removing tests
+# adding imports/typed-{method,subscribe}.ts helpers
+# removing all useless meteor packages, for prod like build
 ```
