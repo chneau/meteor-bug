@@ -15,4 +15,5 @@ npm run update
 # removing tests
 # adding imports/typed-{method,subscribe}.ts helpers
 # removing all useless meteor packages, for prod like build
+# Setting React as global on client side, to fix error: "React is not defined"
 ```
