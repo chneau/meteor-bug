@@ -28,4 +28,5 @@ Meteor.startup(async () => {
       url: "https://forums.meteor.com",
     });
   }
+  console.log(`There is ${await LinksCollection.find().countAsync()} link(s) in the database.`);
 });
