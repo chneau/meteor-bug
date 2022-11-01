@@ -1,2 +1,4 @@
-node_modules/
+node_modules
 bun.lockb
+tsconfig.tsbuildinfo
+.meteor/local

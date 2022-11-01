@@ -10,4 +10,7 @@ meteor --version
 
 npm run update
 # update meteor and npm packages to latest
+
+# adding prettier
+# removing tests
 ```
