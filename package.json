@@ -3,24 +3,24 @@
   "private": true,
   "scripts": {
     "start": "meteor run --exclude-archs=web.browser.legacy",
-    "update": "npm exec --yes concurrently@latest -- --prefix-colors green,yellow 'npm run update:meteor' 'npm run update:node'",
+    "update": "npm exec --yes concurrently@latest -- --prefix-colors auto --names meteor,node 'npm run update:meteor' 'npm run update:node'",
     "update:meteor": "meteor update --all-packages",
     "update:node": "npm exec --yes npm-check-updates@latest -- --upgrade && npm update",
     "format": "prettier --cache --write . --ignore-path .gitignore",
     "check": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
-    "@babel/runtime": "^7.20.1",
+    "@babel/runtime": "^7.21.0",
     "meteor-node-stubs": "^1.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/meteor": "^2.8.0",
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
-    "prettier": "^2.7.1",
-    "typescript": "^4.8.4"
+    "@types/meteor": "^2.9.1",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
   },
   "meteor": {
     "mainModule": {
