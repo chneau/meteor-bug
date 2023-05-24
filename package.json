@@ -10,17 +10,17 @@
     "check": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
-    "@babel/runtime": "^7.21.0",
+    "@babel/runtime": "^7.21.5",
     "meteor-node-stubs": "^1.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/meteor": "^2.9.1",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "prettier": "^2.8.4",
-    "typescript": "^4.9.5"
+    "@types/meteor": "^2.9.2",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
   },
   "meteor": {
     "mainModule": {
