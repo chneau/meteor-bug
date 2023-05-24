@@ -3,9 +3,9 @@
   "private": true,
   "scripts": {
     "start": "meteor run --exclude-archs=web.browser.legacy",
-    "update": "npm exec --yes concurrently@latest -- --prefix-colors auto --names meteor,node 'npm run update:meteor' 'npm run update:node'",
+    "update": "NPM_CONFIG_YES=true npx concurrently@latest --prefix-colors auto --names meteor,node 'npm run update:meteor' 'npm run update:node'",
     "update:meteor": "meteor update --all-packages",
-    "update:node": "npm exec --yes npm-check-updates@latest -- --upgrade && npm update",
+    "update:node": "NPM_CONFIG_YES=true npx npm-check-updates@latest --upgrade && npm update",
     "format": "prettier --cache --write . --ignore-path .gitignore",
     "check": "tsc --noEmit --skipLibCheck"
   },
